@@ -1,0 +1,42 @@
+header, main, aside, article, footer {
+	display: block;
+}
+body {
+	background-color: gray;
+}
+header {
+	background-image: url(http://3.bp.blogspot.com/-hiEO_o6fXR8/T1e5VrwnxFI/AAAAAAAAEbc/5ZbDmWZ-w74/s1600/Bamboo-Forest1-3840x2160.jpg);
+    min-height: 200px;
+    background-size: cover;
+
+}
+header h1 {
+	padding-top: 200px;
+	/*display: inline;*/
+	text-align: left ;
+	color: white;
+}
+
+a {
+	color: lightgray;
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: 0.6s;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+a:hover {
+background-color: #fff;
+}
+
+.green {
+	color: lightgreen;
+}
+article {
+	background-color: white;
+	color: gray;
+}
+footer {
+	color: lightgray;
+}
